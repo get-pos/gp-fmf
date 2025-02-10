@@ -38,7 +38,7 @@ Once you've [set up a Frappe site](https://frappeframework.com/docs/v14/user/en/
 1. Download the app using the Bench CLI.
 
     ```bash
-    bench get-app --branch [branch name] https://github.com/nestorbird/GETPOS.git
+    bench get-app --branch [branch name] https://github.com/get-pos/gp-fmf.git
     ```
 
     Replace `[branch name]` with the appropriate branch as per your setup:
@@ -48,12 +48,12 @@ Once you've [set up a Frappe site](https://frappeframework.com/docs/v14/user/en/
     | version-15    | version-1.4             |
     | version-14    | version-1.4             |
 
-    If it isn't specified, the `--branch` option will default to `deployment-development`.
+    If it isn't specified, the `--branch` option will default to `version-1.4`.
 
 2. Install the app on your site.
 
     ```bash
-    bench --site [site name] install-app nbpos
+    bench --site [site name] install-app getpos
     ```
 
 ## Contributing
